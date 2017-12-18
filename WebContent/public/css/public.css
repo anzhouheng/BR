@@ -1,0 +1,45 @@
+@CHARSET "UTF-8";
+html,body,p,h1,h2,h3,h4,h5,h6,a,input,div,img,span,pre,ul,ol,li,table,tr,td{
+	margin: 0;
+	padding: 0;
+}
+html{
+	overflow-x: hidden;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #666666;
+}
+a:hover{
+	color: #666666;
+}
+
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix::after{
+	content: ' ';
+	display: block;
+	clear: both;
+	height: 0;
+}
+.clearfix{
+	zoom: 1;
+}
+input{
+	outline: none;
+	border: none;
+}	
+
+.layout{
+	position: relative;
+	width: 1090px;
+	margin: 0 auto;
+}
+
